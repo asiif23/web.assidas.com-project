@@ -10,6 +10,8 @@
                 <h3>Madrasah Diniyyah Assidas</h3>
 				<ol class="breadcrumb header-bradcrumb">
 				  <li><a href="index.html">Home</a></li>
+				  <li class="active">&nbsp; / &nbsp;</li> 
+				  <li class="active"> Lembaga yang Dikelola</li>
                   <li class="active">&nbsp; / &nbsp;</li> 
 				  <li class="active"> Madrasah Diniyyah</li>
                   <li class="active">&nbsp; / &nbsp;</li>  

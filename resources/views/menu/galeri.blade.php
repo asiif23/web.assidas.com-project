@@ -32,96 +32,140 @@
 
 				<div class="portfolio-filter">
 					<button type="button" data-filter="all">Semua</button>
-					<button type="button" data-filter="photography">Masjid</button>
-					<button type="button" data-filter="ios">Madrasah Diniyyah</button>
-					<button type="button" data-filter="development">Istighotsah</button>
-					<button type="button" data-filter="design">Ziaroh</button>
+					<button type="button" data-filter="masjid">Masjid</button>
+					<button type="button" data-filter="diniyyah">Madrasah Diniyyah</button>
+					<button type="button" data-filter="pengajian">Pengajian Lapanan</button>
+					<button type="button" data-filter="event">Event</button>
 				</div>
 
 				<div class="row filtr-container">
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid, diniyyah">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design, ios">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid, diniyyah">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img (2).png') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img (2).png') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, photography, development">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, diniyyah, event">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-3.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-3.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, photography, ios">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, pengajian. masjid">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-4.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-4.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, event">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-5.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-5.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design, development">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, event, pengajian">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-6.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-6.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, photography">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid">
+						<div class="portfolio-block">
+							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-8.jpg') }}" alt="">
+							<div class="caption">
+								<a class="search-icon" href="{{ asset('template/images/portfolio/img-8.jpg') }}" data-lightbox="image-1">
+									<i class="tf-ion-diniyyah-search-strong"></i>
+								</a>
+								<h4><a href="">Lihat Foto</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid">
+						<div class="portfolio-block">
+							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-9.jpg') }}" alt="">
+							<div class="caption">
+								<a class="search-icon" href="{{ asset('template/images/portfolio/img-9.jpg') }}" data-lightbox="image-1">
+									<i class="tf-ion-diniyyah-search-strong"></i>
+								</a>
+								<h4><a href="">Lihat Foto</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid">
+						<div class="portfolio-block">
+							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-10.jpg') }}" alt="">
+							<div class="caption">
+								<a class="search-icon" href="{{ asset('template/images/portfolio/img-10.jpg') }}" data-lightbox="image-1">
+									<i class="tf-ion-diniyyah-search-strong"></i>
+								</a>
+								<h4><a href="">Lihat Foto</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid">
+						<div class="portfolio-block">
+							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-11.jpg') }}" alt="">
+							<div class="caption">
+								<a class="search-icon" href="{{ asset('template/images/portfolio/img-11.jpg') }}" data-lightbox="image-1">
+									<i class="tf-ion-diniyyah-search-strong"></i>
+								</a>
+								<h4><a href="">Lihat Foto</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, masjid">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-7.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-7.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, design, development">
+					<div class="col-md-3 col-sm-6 col-xs-6 filtr-item " data-category="mix, event, pengajian">
 						<div class="portfolio-block">
 							<img class="img-fluid" src="{{ asset('template/images/portfolio/img-1.jpg') }}" alt="">
 							<div class="caption">
 								<a class="search-icon" href="{{ asset('template/images/portfolio/img-1.jpg') }}" data-lightbox="image-1">
-									<i class="tf-ion-ios-search-strong"></i>
+									<i class="tf-ion-diniyyah-search-strong"></i>
 								</a>
 								<h4><a href="">Lihat Foto</a></h4>
 							</div>

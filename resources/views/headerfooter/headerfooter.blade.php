@@ -10,7 +10,7 @@
   
   <meta name="author" content="Themefisher.com">
 
-  <title>Masjid Assidas</title>
+  <title>Yayasan Murah Hati Ngargosari</title>
 
 <!-- Mobile Specific Meta
   ================================================== -->
@@ -84,8 +84,8 @@ Fixed Navigation
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="{{ url('tentang') }}">Tentang</a>
-          </li>\
+            <a class="nav-link" href="{{ url('susunan') }}">Kepengurusan Yayasan</a>
+          </li>
           <li class="nav-item ">
             <a class="nav-link" href="{{ url('galeri') }}">Gallery</a>
           </li>
@@ -104,8 +104,16 @@ Fixed Navigation
           <li class="nav-item ">
             <a class="nav-link" href="{{ url('artikel') }}">Artikel</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="{{ url('susunan') }}">Susunan Takmir Masjid</a>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Lembaga yang Dikelola
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="{{ url('masjid') }}">Masjid ASSIDAS</a>
+              <a class="dropdown-item" href="{{ url('tpq') }}">TPQ</a>
+              <a class="dropdown-item" href="{{ url('kajian') }}">Kajian Kitab Kuning</a>
+            </div>
           </li>
           <li class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -114,7 +122,7 @@ Fixed Navigation
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="{{ url('susunanDiniyyah') }}">Susunan Kepengurusan</a>
-              <a class="dropdown-item" href="{{ url('daftarkitab') }}">Daftar Kitab yang dipelajari</a>
+              <a class="dropdown-item" href="{{ url('daftarkitab') }}">Kitab Yang Dikaji</a>
               <a class="dropdown-item" href="{{ url('tenagaPengajar') }}">Tenaga Pengajar</a>
               <a class="dropdown-item" href="{{ url('informasiPendaftaran') }}">Informasi Pendaftaran</a>
             </div>

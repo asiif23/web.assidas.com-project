@@ -1780,6 +1780,7 @@ a:focus, a:hover {
 
 .widget-post-image {
   margin-right: 10px;
+  margin-bottom: auto;
   height: 100px;
   width: 100px;
   overflow: hidden;

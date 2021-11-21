@@ -40,6 +40,9 @@ Route::get('/susunan', function(){
 Route::get('/kontak', function(){
     return view('menu.kontak');
 });
+Route::get('/masjid', function(){
+    return view('menu.lembaga.masjid');
+});
 // ======================================================
 
 
@@ -66,17 +69,27 @@ Route::get('/agenda', function(){
 // ========== subMenu Madrasah Diniyyah =================
 
 Route::get('/susunanDiniyyah', function(){
-    return view('menu.madrasah.susunanDiniyyah');
+    return view('menu.lembaga.madrasah.susunanDiniyyah');
 });
 
 Route::get('/daftarkitab', function(){
-    return view('menu.madrasah.daftarkitab');
+    return view('menu.lembaga.madrasah.daftarkitab');
 });
 
 Route::get('/tenagaPengajar', function(){
-    return view('menu.madrasah.tenagaPengajar');
+    return view('menu.lembaga.madrasah.tenagaPengajar');
 });
 
 Route::get('/informasiPendaftaran', function(){
-    return view('menu.madrasah.informasiPendaftaran');
+    return view('menu.lembaga.madrasah.informasiPendaftaran');
+});
+
+// ========== subMenu Lembaga yg Dikelola =================
+
+Route::get('/kajian', function(){
+    return view('menu.lembaga.kajian');
+});
+
+Route::get('/tpq', function(){
+    return view('menu.lembaga.tpq');
 });

@@ -25,13 +25,17 @@ Route::get('/tentang', function(){
     return view('menu.tentang');
 });
 
-Route::get('/galeri', function(){
-    return view('menu.galeri');
-});
+// Route::get('/galeri', function(){
+//     return view('menu.galeri');
+// });
 
-Route::get('/artikel', function(){
-    return view('menu.artikel');
-});
+Route::resource('Gallery', 'App\Http\Controllers\GalleryController');
+
+// Route::get('/artikel', function(){
+//     return view('menu.artikel');
+// });
+
+Route::resource('Artikel' , 'App\Http\Controllers\ArtikelController');
 
 Route::get('/susunan', function(){
     return view('menu.susunan');

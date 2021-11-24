@@ -87,7 +87,7 @@ Fixed Navigation
             <a class="nav-link" href="{{ url('susunan') }}">Kepengurusan Yayasan</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="{{ url('galeri') }}">Gallery</a>
+            <a class="nav-link" href="{{ Route('Gallery.index') }}">Gallery</a>
           </li>
           <li class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -102,7 +102,7 @@ Fixed Navigation
             </div>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="{{ url('artikel') }}">Artikel</a>
+            <a class="nav-link" href="{{ Route('Artikel.index') }}">Artikel</a>
           </li>
           <li class="nav-item dropdown ">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"

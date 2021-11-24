@@ -31,7 +31,7 @@
 				<!-- /section title -->
 
 				<div class="portfolio-filter">
-					<button type="button" data-filter="all">Semua</button>
+					
 					<button type="button" data-filter="masjid">Masjid</button>
 					<button type="button" data-filter="diniyyah">Madrasah Diniyyah</button>
 					<button type="button" data-filter="pengajian">Pengajian Lapanan</button>
